@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceGroupName": {
+            "value": "tedeshpa-RG-2"
+        },
+        "location": {
+            "value": "South Central US"
+        },
+        "virtualMachineName": {
+            "value": "tejas-vm2"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2_v2"
+        },
+        "adminUsername": {
+            "value": "tejasd"
+        },
+        "storageAccountName": {
+            "value": "tedeshpawapp1869dx2"
+        },
+        "virtualNetworkName": {
+            "value": "tedeshpa-RG-vnet2"
+        },
+        "networkSecurityGroupName": {
+            "value": "tedeshpa-nsg2"
+        },
+        "adminPassword": {
+            "value": "newPASSWORD123"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "tedeshpargdiag12"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/c00d16c7-6c1f-4c03-9be1-6934a4c49682/resourceGroups/tedeshpa-RG-2/providers/Microsoft.Storage/storageAccounts/tedeshpargdiag12"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "publicIpAddressName": {
+            "value": "tejastestres4-ip2"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "VSTSAccountName": {
+            "value": "newacco567"
+        },
+        "TeamProject": {
+            "value": "MyFirstProject"
+        },
+        "DeploymentGroup": {
+            "value": "tedeshpa1"
+        },
+        "WindowsAgentName": {
+            "value": ""
+        },
+        "Tags": {
+            "value": ""
+        },
+        "dnsLabelPrefix": {
+            "value": "genunique"
+        }
+    }
+}
